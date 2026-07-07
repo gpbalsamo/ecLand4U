@@ -84,16 +84,9 @@ examples/    Ready-to-run ecLand use cases
 assets/      Images and visual material for the README and documentation
 ```
 ## Planned content
-```text
-ecLand installation notes
-Single-point ecLand experiment
-Regional offline experiment
-Forcing-data preparation
-Output diagnostics and plotting
-Hydrological evaluation workflows
-Snow, soil moisture and runoff examples
-Links to CaMa-Flood, GP4Hydro and data-assimilation use cases
-```
+- Hydrological evaluation workflows
+- Snow, soil moisture and runoff examples
+- Links to CaMa-Flood and Hydra use cases
 
 ## Status
 This repository is under active development. Feedback welcome.
