@@ -1,7 +1,7 @@
 # ecLand4U
 
 <p align="center">
-  <img src="ecLand4U.png" alt="ecLand4U overview" width="850">
+  <img src="assets/ecLand4U.png" alt="ecLand4U overview" width="850">
 </p>
 
 **ecLand4U** is a practical gateway into ECMWF's open-source ecLand code.
@@ -38,28 +38,41 @@ Clone the official ecLand repository:
 ```bash
 git clone https://github.com/ecmwf-ifs/ecland.git
 cd ecland
+```
 For macOS users, the recommended first steps are:
+```bash
 brew install cmake open-mpi netcdf netcdf-fortran hdf5 eccodes pkg-config git wget python
+```
 Configure MPI explicitly before building:
+```bash
 export MPI_HOME=$(brew --prefix open-mpi)
 export PATH="$MPI_HOME/bin:$PATH"
 export CC=mpicc
 export CXX=mpicxx
 export FC=mpifort
 export DR_HOOK_ASSERT_MPI_INITIALIZED=0
+```
 Then build ecLand:
+```bash
 ./ecland-bundle build
+```
 Run the ecLand tests:
+```bash
 cd build
 ctest -R ecland --output-on-failure
+```
+
 Landgram diagnostics
 The landgram.py diagnostic can be used to inspect ecLand test output, for example:
+```bash
 landgram.py \
   --input "./o_*.nc" \
   --lat 42.5378 \
   --lon -72.1715 \
   --loc "Harvard Forest" \
   --out landgram_HarvardForest.png
+```
 Make sure the ecLand namelist enables output writing before running diagnostics.
+
 Status
-This repository is under active development.
+This repository is under active development. Feedback welcome.
