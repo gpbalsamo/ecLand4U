@@ -74,5 +74,27 @@ landgram.py \
 ```
 Make sure the ecLand namelist enables output writing before running diagnostics.
 
-Status
+## Repository structure
+
+```text
+docs/        Documentation and user guides
+notebooks/   Interactive examples and diagnostics
+scripts/     Command-line utilities
+examples/    Ready-to-run ecLand use cases
+assets/      Images and visual material for the README and documentation
+```
+## Planned content
+```text
+ecLand installation notes
+Single-point ecLand experiment
+Regional offline experiment
+Forcing-data preparation
+Output diagnostics and plotting
+Hydrological evaluation workflows
+Snow, soil moisture and runoff examples
+Links to CaMa-Flood, GP4Hydro and data-assimilation use cases
+```
+
+## Status
 This repository is under active development. Feedback welcome.
+
