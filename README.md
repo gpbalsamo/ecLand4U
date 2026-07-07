@@ -1,9 +1,5 @@
 # ecLand4U
 
-<p align="center">
-  <img src="assets/ecLand4U.png" alt="ecLand4U overview" width="850">
-</p>
-
 **ecLand4U** is a practical gateway into ECMWF's open-source ecLand code.
 
 It supports users who want to install, run, test and analyse ecLand, with examples for:
@@ -18,6 +14,10 @@ It supports users who want to install, run, test and analyse ecLand, with exampl
 The project is based around the official ECMWF ecLand repository:
 
 https://github.com/ecmwf-ifs/ecland
+
+<p align="center">
+  <img src="assets/ecLand4U.png" alt="ecLand4U overview" width="850">
+</p>
 
 ## Purpose
 
