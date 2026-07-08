@@ -39,21 +39,20 @@ Clone the official ecLand repository:
 git clone https://github.com/ecmwf-ifs/ecland.git
 cd ecland
 ```
-For macOS users, the recommended first steps are:
-```bash
-brew install cmake open-mpi netcdf netcdf-fortran hdf5 eccodes pkg-config git wget python
-```
 Configure MPI explicitly before building:
 ```bash
 export MPI_HOME=$(brew --prefix open-mpi)
 export PATH="$MPI_HOME/bin:$PATH"
+
 export CC=mpicc
 export CXX=mpicxx
 export FC=mpifort
+
 export DR_HOOK_ASSERT_MPI_INITIALIZED=0
 ```
 Then build ecLand:
 ```bash
+./ecland-bundle create
 ./ecland-bundle build
 ```
 Run the ecLand tests:
