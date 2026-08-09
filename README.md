@@ -198,7 +198,10 @@ assets/      Images and visual material for the README and documentation
 ```
 
 ## Next steps
+
 - Run the [PLUMBER2 with ecLand](https://github.com/gpbalsamo/plumber2-ecland).
+- Run the [LIAISE with ecLand](https://github.com/gpbalsamo/liaise-ecland).
+
 
 ## Status
 This repository is under active development. Feedback welcome.
