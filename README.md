@@ -201,6 +201,7 @@ assets/      Images and visual material for the README and documentation
 
 - Run the [PLUMBER2 with ecLand](https://github.com/gpbalsamo/plumber2-ecland).
 - Run the [LIAISE with ecLand](https://github.com/gpbalsamo/liaise-ecland).
+- Run the [WFDE5 global run with ecLand + CaMa-Flood](https://github.com/gpbalsamo/wfde5-ecland).
 
 
 ## Status
